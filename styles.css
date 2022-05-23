@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.pagina-instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+}
+
+.celular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.celular img{
+    width: 50rem;
+}
+
+.instagram-continua{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    padding: 50px;
+}
+
+.img-de-perfil{
+    border-radius: 100%;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(67, 121, 202);
+    color: white;
+}
+
+.logout{
+    color: rgb(67, 121, 202);
+}
+
+.grupo{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    gap: 25px;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid rgb(214, 211, 211);
+}
+
+.grupo-dois{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 305px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color:rgb(67, 121, 202);
+    border: 1px solid rgb(214, 211, 211); 
+}
+
+.link-login{
+    color: black;
+}
